@@ -18,3 +18,19 @@ The adverstising dataset captures sales revenue generated with respect to advert
 - Radio     - Spend on radio Advertisements
 - Newspaper - Spend on newspaper Advertisements
 - Sales     - Sales revenue generated
+
+## 3. Model Implementation:
+
+- Libraries: Python with scikit learn, pandas, seaborn, numpy and matplotib.pyplot
+- Model Training:
+  - Linear Regression
+  - Ridge Regression (with hyperparameter tuning)
+ 
+- Model Evaluation: [Metrics used, e.g., RMSE, MAE, R-squared]
+- Performance comparison between linear and ridge regression
+
+ ## 4. Results:
+
+- [Summarize key findings, e.g., best model performance, feature importance]
+- [Visualizations (if applicable), e.g., scatter plots, residual plots]
+
