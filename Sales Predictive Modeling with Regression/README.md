@@ -26,7 +26,7 @@ The adverstising dataset captures sales revenue generated with respect to advert
   - Linear Regression
   - Ridge Regression (with hyperparameter tuning)
  
-- Model Evaluation: [Metrics used, e.g., RMSE, MAE, R-squared]
+- Model Evaluation: Metrics used,RMSE, MAE, R-squared
 - Performance comparison between linear and ridge regression
 
  ## 4. Results:
