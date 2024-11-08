@@ -1,4 +1,4 @@
-# Sales Predictive Modeling using Regression
+# Sales Predictive Modeling using Linear Regression
 
 ## 1. Problem Statement
 
@@ -19,7 +19,13 @@ The adverstising dataset captures sales revenue generated with respect to advert
 - Newspaper - Spend on newspaper Advertisements
 - Sales     - Sales revenue generated
 
-## 3. Model Implementation:
+## 3. Exploratory Data Analysis
+
+- Getting to know our data and it's quality
+- Searching for any relationships
+- Creating Visualisations to look for some patterns 
+
+## 4. Model Implementation:
 
 - Libraries: Python with scikit learn, pandas, seaborn, numpy and matplotib.pyplot
 - Model Training:
@@ -32,8 +38,61 @@ The adverstising dataset captures sales revenue generated with respect to advert
     - R-squared
 - Performance comparison between linear and ridge regression
 
- ## 4. Results:
+ ## 5. Results:
 
-- [Summarize key findings, e.g., best model performance, feature importance]
-- [Visualizations (if applicable), e.g., scatter plots, residual plots]
+ ![image](https://github.com/user-attachments/assets/e37ef56e-5e20-4b91-b24e-912c1999bb06)
+
+##### Observation
+
+- The diagonal of the above matirx shows the auto-correlation of the variables. It is always 1. You can observe that the correlation between TV and Sales is highest i.e. 0.78 and then between sales and radio i.e. 0.576.
+- Correlations can vary from -1 to +1. Closer to +1 means strong positive correlation and close -1 means strong negative correlation. Closer to 0 means not very strongly correlated. variables with strong correlations are mostly probably candidates for model building.
+
+The below plot shows the visualization of the relationship strength of the above features to sales
+
+![image](https://github.com/user-attachments/assets/d336d4a5-e19f-4474-a2ca-b032ac6f4829)
+
+- Strong relationship between TV ads and sales
+- Weak relationship between Radio ads and sales
+- Very weak to no relationship between Newspaper ads and sales
+
+#### Model Results Analysis:
+
+##### Linear Regression
+
+  __y = 2.9 + 0.0468 `*` TV + 0.1785 `*` radio + 0.00258 `*` newspaper__
+
+  - A "unit" increase in TV ad spending is **associated with** a _"0.0468_ unit" increase in Sales.
+  - Or more clearly: An additional $1,000 spent on TV ads is **associated with** an increase in sales of ~0.0468 * 1000 = 47 widgets.
+ 
+#### metrics scores:
+
+- __Mean Absolute Error__
+      - MAE for training set is 1.237
+      - MAE for test set is 1.349
+      
+-  __Mean Square Error__
+      - MSE for training set is 2.766
+      - MSE for test set is 3.21
+      - 
+- __Root Mean Squared Error__
+      - RMSE for training set is 1.663
+      - RMSE for test set is 1.792
+  
+- __R Squared:__
+      - The R squared value on testing set: 0.723
+        ##### Our value is very close to 1, recall that when building such model is that our r squared value must be closer to 1.
+      
+  ##### Ridge Regression
+  - Suprisingly so we also accomplished the same __Rsquared value__ of 0.723
+
+    __For more kindly go throgh my notebook__
+
+    
+
+
+
+  
+      
+
+
 
