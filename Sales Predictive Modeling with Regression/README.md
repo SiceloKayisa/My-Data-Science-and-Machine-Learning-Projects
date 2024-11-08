@@ -47,7 +47,7 @@ The adverstising dataset captures sales revenue generated with respect to advert
 - The diagonal of the above matirx shows the auto-correlation of the variables. It is always 1. You can observe that the correlation between TV and Sales is highest i.e. 0.78 and then between sales and radio i.e. 0.576.
 - Correlations can vary from -1 to +1. Closer to +1 means strong positive correlation and close -1 means strong negative correlation. Closer to 0 means not very strongly correlated. variables with strong correlations are mostly probably candidates for model building.
 
-The below plot shows the visualization of the relationship strength of the above features to sales
+__The below plot shows the visualization of the relationship strength of the above features to sales__
 
 ![image](https://github.com/user-attachments/assets/d336d4a5-e19f-4474-a2ca-b032ac6f4829)
 
@@ -81,7 +81,7 @@ The below plot shows the visualization of the relationship strength of the above
   - RMSE for test set is 1.792
   
 - __R Squared:__ <br>
-  - The R squared value on testing set: 0.723
+  - The R squared value : 0.723
     
   ##### Our value is very close to 1, recall that when building such model is that our r squared value must be closer to 1.
       
