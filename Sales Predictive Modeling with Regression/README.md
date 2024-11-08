@@ -70,10 +70,12 @@ The below plot shows the visualization of the relationship strength of the above
   - MAE for training set is 1.237
   - MAE for test set is 1.349
       
+
 -  __Mean Square Error__ <br>
   - MSE for training set is 2.766
   - MSE for test set is 3.21
        
+
 - __Root Mean Squared Error__ <br>
   - RMSE for training set is 1.663
   - RMSE for test set is 1.792
