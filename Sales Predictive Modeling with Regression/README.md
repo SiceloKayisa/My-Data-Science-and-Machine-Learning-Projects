@@ -67,20 +67,21 @@ The below plot shows the visualization of the relationship strength of the above
 #### metrics scores:
 
 - __Mean Absolute Error__ <br>
-      - MAE for training set is 1.237
-      - MAE for test set is 1.349
+  - MAE for training set is 1.237
+  - MAE for test set is 1.349
       
 -  __Mean Square Error__ <br>
-      - MSE for training set is 2.766
-      - MSE for test set is 3.21
+  - MSE for training set is 2.766
+  - MSE for test set is 3.21
        
 - __Root Mean Squared Error__ <br>
-      - RMSE for training set is 1.663
-      - RMSE for test set is 1.792
+  - RMSE for training set is 1.663
+  - RMSE for test set is 1.792
   
-- __R Squared:__
-      - The R squared value on testing set: 0.723
-        ##### Our value is very close to 1, recall that when building such model is that our r squared value must be closer to 1.
+- __R Squared:__ <br>
+  - The R squared value on testing set: 0.723
+    
+  ##### Our value is very close to 1, recall that when building such model is that our r squared value must be closer to 1.
       
   ##### Ridge Regression
   - Suprisingly so we also accomplished the same __Rsquared value__ of 0.723
