@@ -71,7 +71,7 @@ The below plot shows the visualization of the relationship strength of the above
   - MAE for test set is 1.349
       
 
--  __Mean Square Error__ <br>
+- __Mean Square Error__ <br>
   - MSE for training set is 2.766
   - MSE for test set is 3.21
        
