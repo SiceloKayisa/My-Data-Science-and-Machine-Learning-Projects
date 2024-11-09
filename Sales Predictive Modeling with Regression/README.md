@@ -88,7 +88,7 @@ __The below plot shows the visualization of the relationship strength of the abo
   ##### Ridge Regression
   - Suprisingly so we also accomplished the same __Rsquared value__ of 0.723
 
-    __For more kindly go throgh my notebook__
+    __For more kindly go through my notebook__
 
     
 
