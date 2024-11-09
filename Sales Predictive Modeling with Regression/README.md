@@ -88,7 +88,7 @@ __The below plot shows the visualization of the relationship strength of the abo
   ##### Ridge Regression
   - Suprisingly so we also accomplished the same __Rsquared value__ of 0.723
 
-    __For more kindly go through my notebook__
+    __For more kindly go through my [notebook](https://github.com/SiceloKayisa/My-Data-Science-and-Machine-Learning-Projects/blob/main/Sales%20Predictive%20Modeling%20with%20Regression/Sales%20Modeling%20using%20Linear%20Regression.ipynb)__
 
     
 
