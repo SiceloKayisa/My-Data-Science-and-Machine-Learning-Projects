@@ -13,7 +13,7 @@ __Sales__ (in thousands of units) for a particular product as a __function__ of 
 
 ## 2. Data Loading and Description
 
-The adverstising dataset captures sales revenue generated with respect to advertisement spends across multiple channels like radio, tv and newspaper.
+The advertising dataset captures sales revenue generated with respect to advertisement spends across multiple channels like radio, tv and newspaper.
 - TV        - Spend on TV Advertisements
 - Radio     - Spend on radio Advertisements
 - Newspaper - Spend on newspaper Advertisements
