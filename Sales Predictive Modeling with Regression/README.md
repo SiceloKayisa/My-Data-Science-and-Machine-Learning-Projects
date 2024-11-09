@@ -13,7 +13,7 @@ __Sales__ (in thousands of units) for a particular product as a __function__ of 
 
 ## 2. Data Loading and Description
 
-The advertising dataset captures sales revenue generated with respect to advertisement spends across multiple channels like radio, tv and newspaper.
+The [advertising](https://github.com/SiceloKayisa/My-Data-Science-and-Machine-Learning-Projects/blob/main/Sales%20Predictive%20Modeling%20with%20Regression/Advertising.csv) dataset captures sales revenue generated with respect to advertisement spends across multiple channels like radio, tv and newspaper.
 - TV        - Spend on TV Advertisements
 - Radio     - Spend on radio Advertisements
 - Newspaper - Spend on newspaper Advertisements
