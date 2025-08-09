@@ -1,13 +1,13 @@
 ## Movie Rental Duration Prediction 🎬
 This project focuses on predicting the duration of movie rentals using various machine learning regression models. By analyzing historical rental data, we aim to build a robust model that can accurately estimate how long a movie will be rented.
 
-Project Goal 🎯
+### Project Goal 🎯
 The primary objective of this project is to compare the performance of different regression techniques in predicting movie rental duration and identify the most effective model for this task.
 
-Dataset 📊
+### Dataset 📊
 The project utilizes a rental_info.csv dataset, which contains information about movie rentals, including rental dates, return dates, and special features of the movies.
 
-Columns of interest in the dataset:
+**Columns of interest in the dataset:**
 
 rental_date: The date when the movie was rented.
 
