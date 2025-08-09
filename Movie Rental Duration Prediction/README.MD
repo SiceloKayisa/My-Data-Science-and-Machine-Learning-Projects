@@ -39,3 +39,19 @@ special_features: A string indicating special features (e.g., "Deleted Scenes", 
   - numpy for numerical operations.
 
   - scikit-learn for machine learning models and utilities (train_test_split, mean_squared_error, Lasso, LinearRegression, RandomForestRegressor, RandomizedSearchCV).
+
+### Results 📈
+The project compares the Mean Squared Error (MSE) of the combined Lasso + OLS model against the Random Forest Regressor. The notebook will output which model performed better based on this metric, along with its corresponding MSE.
+
+(Based on the provided code, the Random Forest Regressor typically yields a lower MSE, making it the preferred model for this task.)
+
+### Future Enhancements 💡
+- Explore more advanced feature engineering, such as incorporating movie genres, audience ratings, or director information.
+
+- Experiment with other regression models (e.g., Gradient Boosting, XGBoost, Support Vector Regressor).
+
+- Perform more extensive hyperparameter tuning using GridSearchCV if computational resources allow.
+
+- Implement cross-validation more broadly across all models for a more robust evaluation.
+
+- Visualize the residuals and actual vs. predicted values to gain deeper insights into model performance.
