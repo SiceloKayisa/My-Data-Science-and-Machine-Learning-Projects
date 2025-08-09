@@ -9,11 +9,11 @@ The project utilizes a rental_info.csv dataset, which contains information about
 
 **Columns of interest in the dataset:**
 
-rental_date: The date when the movie was rented.
+`rental_date:` The date when the movie was rented.
 
-return_date: The date when the movie was returned.
+`return_date:` The date when the movie was returned.
 
-special_features: A string indicating special features (e.g., "Deleted Scenes", "Behind the Scenes").
+`special_features:` A string indicating special features (e.g., "Deleted Scenes", "Behind the Scenes").
 
 ### Features & Technologies ✨
 - **Data Preparation:** Calculating rental duration in days and creating dummy variables for special_features.
