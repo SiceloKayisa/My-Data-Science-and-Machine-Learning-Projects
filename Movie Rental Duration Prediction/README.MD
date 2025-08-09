@@ -15,27 +15,27 @@ return_date: The date when the movie was returned.
 
 special_features: A string indicating special features (e.g., "Deleted Scenes", "Behind the Scenes").
 
-Features & Technologies ✨
-Data Preparation: Calculating rental duration in days and creating dummy variables for special_features.
+### Features & Technologies ✨
+- **Data Preparation:** Calculating rental duration in days and creating dummy variables for special_features.
 
-Feature Engineering: Deriving rental_length_days, deleted_scenes, and behind_the_scenes.
+- **Feature Engineering:** Deriving rental_length_days, deleted_scenes, and behind_the_scenes.
 
-Machine Learning Models:
+- **Machine Learning Models:**
 
-Lasso Regression: Used for feature selection to identify important predictors.
+  - **Lasso Regression:** Used for feature selection to identify important predictors.
 
-Ordinary Least Squares (OLS) Regression: Applied to the features selected by Lasso.
+  - **Ordinary Least Squares (OLS) Regression:** Applied to the features selected by Lasso.
 
-Random Forest Regressor: A powerful ensemble model for robust predictions.
+  - **Random Forest Regressor:** A powerful ensemble model for robust predictions.
 
-Hyperparameter Tuning: Employing RandomizedSearchCV to optimize the Random Forest model's performance.
+- **Hyperparameter Tuning:** Employing RandomizedSearchCV to optimize the Random Forest model's performance.
 
-Model Evaluation: Using Mean Squared Error (MSE) as the primary metric to assess model accuracy.
+- **Model Evaluation:** Using Mean Squared Error (MSE) as the primary metric to assess model accuracy.
 
-Libraries:
+- **Libraries:**
 
-pandas for data manipulation.
+  - pandas for data manipulation.
 
-numpy for numerical operations.
+  - numpy for numerical operations.
 
-scikit-learn for machine learning models and utilities (train_test_split, mean_squared_error, Lasso, LinearRegression, RandomForestRegressor, RandomizedSearchCV).
+  - scikit-learn for machine learning models and utilities (train_test_split, mean_squared_error, Lasso, LinearRegression, RandomForestRegressor, RandomizedSearchCV).
