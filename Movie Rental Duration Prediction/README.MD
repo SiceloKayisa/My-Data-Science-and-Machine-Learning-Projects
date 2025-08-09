@@ -1,6 +1,9 @@
 ## Movie Rental Duration Prediction 🎬
 This project focuses on predicting the duration of movie rentals using various machine learning regression models. By analyzing historical rental data, we aim to build a robust model that can accurately estimate how long a movie will be rented.
 
+### Project Description
+Time to put your regression knowledge to the test! A DVD rental company has approached you to make a regression model which will help predict the number of days a customer rents a DVD. The model will hopefully make their inventory planning much more efficient. You decide to help them by running some regression models and recommending the best-performing model to the company.
+
 ### Project Goal 🎯
 The primary objective of this project is to compare the performance of different regression techniques in predicting movie rental duration and identify the most effective model for this task.
 
