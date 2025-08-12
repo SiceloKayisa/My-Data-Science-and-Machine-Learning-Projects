@@ -15,7 +15,7 @@ Use NearestNeighbors from sklearn.neighbors to develop a model that shows books 
 Create a function named get_recommends that takes a book title (from the dataset) as an argument and returns a list of 5 similar books with their distances from the book argument
 This code:
 
-```get_recommends("The Queen of the Damned (Vampire Chronicles (Paperback))")`
+```get_recommends("The Queen of the Damned (Vampire Chronicles (Paperback))")```
 should return:
 
 ```
@@ -29,6 +29,7 @@ should return:
     ['The Vampire Lestat (Vampire Chronicles, Book II)', 0.5178412199020386]
   ]
 ]
+```
 
 Notice that the data returned from get_recommends() is a list. The first element in the list is the book title passed into the function. The second element in the list is a list of five more lists. Each of the five lists contains a recommended book and the distance from the recommended book to the book passed into the function.
 
