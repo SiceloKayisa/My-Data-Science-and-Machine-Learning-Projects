@@ -18,7 +18,8 @@ This code:
 ```get_recommends("The Queen of the Damned (Vampire Chronicles (Paperback))")`
 should return:
 
-```[
+```
+[
   'The Queen of the Damned (Vampire Chronicles (Paperback))',
   [
     ['Catch 22', 0.793983519077301], 
