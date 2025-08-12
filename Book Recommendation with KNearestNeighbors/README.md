@@ -8,7 +8,7 @@ After going to that link, create a copy of the notebook either in your own accou
 
 We are still developing the interactive instructional content for the machine learning curriculum. For now, you can go through the video challenges in this certification. You may also have to seek out additional learning resources, similar to what you would do when working on a real-world project.
 
-In this challenge, you will create a book recommendation algorithm using K-Nearest Neighbors.
+**In this challenge, you will create a book recommendation algorithm using K-Nearest Neighbors.**
 
 In this project, you will use the Book-Crossings dataset, which contains 1.1 million ratings (scale of 1-10) of 270,000 books by 90,000 users. The dataset is already imported in the notebook, so no additional download is required.
 
