@@ -47,7 +47,7 @@ The first three cells import libraries you may need and the data to use. The fin
 
 - **Data Transformation:** Transformed the raw ratings data into a user-item matrix using pandas.pivot(). This is a foundational step for collaborative filtering, where rows represent items (books), columns represent users, and values represent ratings.
 
-- ** Machine Learning Model Implementation:** Successfully implemented a collaborative filtering model using NearestNeighbors from scikit-learn. This demonstrates the ability to choose an appropriate machine learning algorithm for a specific task.
+- **Machine Learning Model Implementation:** Successfully implemented a collaborative filtering model using NearestNeighbors from scikit-learn. This demonstrates the ability to choose an appropriate machine learning algorithm for a specific task.
 
 - **Practical Application:** You created a functional recommendation engine (get_recommends) that can take a book title as input and return a list of recommended books based on cosine similarity, which is a powerful metric for finding similar items.
 
