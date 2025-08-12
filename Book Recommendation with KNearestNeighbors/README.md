@@ -1,4 +1,4 @@
-## Book Recommendation Engine using KNN
+## Book Recommendation Engine using KNN 🎯
 
 This project was completed as part of my coursework from **FreeCodeCamp: Machine Learning with Python**
 
