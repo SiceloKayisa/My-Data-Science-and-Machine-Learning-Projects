@@ -1,6 +1,6 @@
 ## Book Recommendation Engine using KNN
 
-This project was completed as part of my coursework from FreeCodeCamp: Machine Learning with Python
+This project was completed as part of my coursework from **FreeCodeCamp: Machine Learning with Python**
 
 You will be working on this project with [Google Colab](https://colab.research.google.com/drive/1Neq9kkKsk-mYGdH8gwclFsjnqzA7pZD_#scrollTo=jd2SLCh8oxMh)
 
