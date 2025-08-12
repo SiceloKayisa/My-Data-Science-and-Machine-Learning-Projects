@@ -39,3 +39,16 @@ If you graph the dataset (optional), you will notice that most books are not rat
 
 The first three cells import libraries you may need and the data to use. The final cell is for testing. Write all your code in between those cells.
 
+### Project Achievements 
+
+- **Data Acquisition and Preparation:** Successfully read and parsed raw data from CSV files (ratings.csv and books.csv), handled specific file attributes like encoding (ISO-8859-1) and column separators (;).
+
+- **Data Cleaning and Filtering:** Performed crucial data cleaning steps by filtering out infrequent users (those with fewer than 200 ratings) and unpopular books (those with fewer than 100 ratings). This is an essential step in building an effective recommendation system.
+
+- **Data Transformation:** Transformed the raw ratings data into a user-item matrix using pandas.pivot(). This is a foundational step for collaborative filtering, where rows represent items (books), columns represent users, and values represent ratings.
+
+- ** Machine Learning Model Implementation:** Successfully implemented a collaborative filtering model using NearestNeighbors from scikit-learn. This demonstrates the ability to choose an appropriate machine learning algorithm for a specific task.
+
+- **Practical Application:** You created a functional recommendation engine (get_recommends) that can take a book title as input and return a list of recommended books based on cosine similarity, which is a powerful metric for finding similar items.
+
+- **Code Testing and Validation:** Implemented a dedicated test function (test_book_recommendation) to automatically verify the correctness of your recommendation system. This demonstrates a good practice in software development by ensuring the model's output is consistent and accurate.
