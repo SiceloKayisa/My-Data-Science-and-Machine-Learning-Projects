@@ -39,7 +39,7 @@ If you graph the dataset (optional), you will notice that most books are not rat
 
 The first three cells import libraries you may need and the data to use. The final cell is for testing. Write all your code in between those cells.
 
-### Project Achievements 
+### Project Achievements 💡 
 
 - **Data Acquisition and Preparation:** Successfully read and parsed raw data from CSV files (ratings.csv and books.csv), handled specific file attributes like encoding (ISO-8859-1) and column separators (;).
 
