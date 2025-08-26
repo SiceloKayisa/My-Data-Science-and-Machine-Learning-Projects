@@ -30,7 +30,7 @@ The dataset used in this project is the Bank Marketing Data Set from the UCI Mac
 
 ### 🔑 Key Steps
 
-### Exploratory Data Analysis (EDA)
+#### Exploratory Data Analysis (EDA)
 Initial Data Inspection: Understanding the dataset's dimensions, data types, and checking for missing values.
 
 **Target Variable Analysis:** Visualizing the distribution of churn (y variable) to identify class imbalance.
@@ -39,7 +39,7 @@ Initial Data Inspection: Understanding the dataset's dimensions, data types, and
 
 **Bivariate Analysis:** Investigating relationships between features and the target variable to uncover insights into potential churn drivers.
 
-### Data Cleaning & Feature Engineering ###
+#### Data Cleaning & Feature Engineering ###
   - **Handling Irrelevant Features:** Dropping columns that do not contribute to the prediction.
 
   - **Categorical Encoding:** Converting categorical features into a numerical format suitable for machine learning models using One-Hot Encoding and Label Encoding.
@@ -48,7 +48,7 @@ Initial Data Inspection: Understanding the dataset's dimensions, data types, and
 
   - **Addressing Class Imbalance:** (Optional, but recommended for churn datasets) Utilizing techniques like SMOTE (Synthetic Minority Over-sampling Technique) to balance the target classes, which can improve model performance for the minority class. Note: SMOTE requires the imblearn library, which is outside sklearn but often used in conjunction.
 
-### Model Building & Evaluation ###
+#### Model Building & Evaluation ###
 - **Data Splitting:** Dividing the dataset into training and testing sets.
 
 - **Pipeline Creation:** Constructing sklearn pipelines to streamline preprocessing and model training, ensuring consistency and preventing data leakage.
