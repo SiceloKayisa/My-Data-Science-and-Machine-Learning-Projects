@@ -84,7 +84,6 @@ The following sklearn classification algorithms were implemented and evaluated:
 
   - Gradient Boosting Classifier
 
-  - K-Neighbors Classifier
 
 ### 📊 Model Perfomance Analysis
 
