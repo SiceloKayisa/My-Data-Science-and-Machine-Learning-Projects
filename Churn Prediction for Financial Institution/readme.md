@@ -2,7 +2,7 @@
 
 ### Table of Contents
 
-- [`Introduction`](#Introduction)
+- [Introduction](#Introduction)
 
 - [`Dataset`](#Dataset)
 
@@ -16,7 +16,7 @@
 
 - Models Used
 
-- Results   [Go to Heading section] (#-this-is-a-heading)
+- Results   
 
 - Libraries Used
 - 
