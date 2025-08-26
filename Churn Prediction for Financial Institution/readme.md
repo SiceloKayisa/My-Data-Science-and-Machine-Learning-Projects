@@ -2,25 +2,24 @@
 
 ### Table of Contents
 
-- [Introduction](#introduction)
+- [Introduction](#-🚀-Introduction)
 
 - [Dataset](#Dataset)
 
-- Key Steps
+- [Key Steps](#Key-Steps)
 
-    - Exploratory Data Analysis (EDA)
+    - [Exploratory Data Analysis (EDA)](#Exploratory-Data-Analysis-(EDA)
 
-    - Data Cleaning & Feature Engineering
+    - [Data Cleaning & Feature Engineering](#Data-Cleaning-&-Feature-Engineering)
 
-    - Model Building & Evaluation
+    - [Model Building & Evaluation](#Model-Building-&-Evaluation)
 
-- Models Used
+- [Models Used](#Models-Used)
 
-- Results   
+- [Results](#Results) 
 
-- Libraries Used
-- 
-in [Section `Features`](#feature)
+- [Libraries Used](#Libraries-Used)
+
 ### 🚀 Introduction
 This project focuses on building a churn prediction model for a financial institution. Customer churn is a critical issue for businesses, as retaining existing customers is often more cost-effective than acquiring new ones. By identifying customers at high risk of churning, institutions can implement targeted retention strategies.
 
