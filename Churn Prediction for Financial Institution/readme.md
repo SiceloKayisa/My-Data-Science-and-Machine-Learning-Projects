@@ -37,11 +37,13 @@ This repository contains a comprehensive Jupyter Notebook that covers the entire
 The dataset used in this project is the Bank Marketing Data Set from the UCI Machine Learning Repository. This dataset is related to direct marketing campaigns (phone calls) of a Portuguese banking institution. The classification goal is to predict if the client will subscribe to a term deposit (the y variable), which serves as our churn indicator.
 
 ### 📁 Project Structure
-`.
+``.
 ├── bank-additional-full.csv  # The dataset
+
 └── Churn_Prediction_Notebook.ipynb # Jupyter Notebook containing the project code
+
 └── README.md                 # This README file
-`
+``
 
 ### 🔑 Key Steps
 
