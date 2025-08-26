@@ -19,7 +19,7 @@
 - Results
 
 - Libraries Used
-
+in [Section `Features`](#feature)
 ### 🚀 Introduction
 This project focuses on building a churn prediction model for a financial institution. Customer churn is a critical issue for businesses, as retaining existing customers is often more cost-effective than acquiring new ones. By identifying customers at high risk of churning, institutions can implement targeted retention strategies.
 
