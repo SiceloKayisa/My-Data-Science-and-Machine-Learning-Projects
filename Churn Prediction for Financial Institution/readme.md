@@ -15,8 +15,8 @@
     - [Model Building & Evaluation](#-Model-Building-&-Evaluation)
 
 - [Models Used](#-Models-Used)
-
-- [Results](#-Results)
+  
+- [Model Perfomance Analysis](#-Model-Perfomance-Analysis)
 
 - [Libraries Used](#-Libraries-Used)
 
@@ -84,5 +84,84 @@ The following sklearn classification algorithms were implemented and evaluated:
 
   - K-Neighbors Classifier
 
-### 📊 Results
-The project provides a comparative analysis of the selected models, highlighting their performance across various metrics. The F1-Score and ROC-AUC are particularly crucial for this imbalanced classification problem, offering a balanced view of precision and recall. The Churn_Prediction_Notebook.ipynb will detail the specific metrics for each model, allowing for an informed decision on the best model for deployment.
+### 📊 Model Perfomance Analysis
+
+In churn prediction, correctly identifying customers who are likely to churn (class 1, the positive class) is often more critical than overall accuracy. Therefore, recall and F1-score for class 1 are particularly important metrics to focus on.
+
+#### 1. Logistic Regression
+Accuracy: 0.90
+
+- Class 0 (Non-Churn): Very high precision (0.91) and recall (0.99), leading to an excellent F1-score (0.95). It's great at identifying non-churners.
+
+Class 1 (Churn):
+
+Precision: 0.68 (68% of customers predicted to churn actually churned).
+
+Recall: 0.22 (Only 22% of actual churners were correctly identified).
+
+F1-score: 0.33
+
+Analysis: While overall accuracy is high, Logistic Regression performs poorly in identifying actual churners (low recall for class 1). This model would miss a significant number of customers who are about to churn.
+
+#### 2. Decision Tree
+Accuracy: 0.84
+
+Class 0 (Non-Churn): Good precision (0.92) and recall (0.90), with an F1-score of 0.91.
+
+Class 1 (Churn):
+
+Precision: 0.31
+
+Recall: 0.34
+
+F1-score: 0.32
+
+Analysis: Decision Tree has a lower overall accuracy compared to Logistic Regression. It shows slightly better recall for class 1 than Logistic Regression (0.34 vs 0.22), meaning it catches more actual churners, but its precision for class 1 is much lower, indicating more false positives.
+
+#### 3. Random Forest
+**Accuracy**: 0.89
+
+Class 0 (Non-Churn): Strong precision (0.91) and recall (0.97), resulting in an F1-score of 0.94.
+
+Class 1 (Churn):
+
+Precision: 0.57
+
+Recall: 0.29
+
+F1-score: 0.38
+
+**Analysis:** Random Forest provides a good balance, with high overall accuracy and better precision for class 1 (0.57) compared to Decision Tree, but its recall for churners (0.29) is still relatively low, though better than Logistic Regression. It improves the F1-score for class 1 to 0.38, making it the best so far for the churn class.
+
+#### 4. SVC (Support Vector Classifier)
+**Accuracy:** 0.90
+
+Class 0 (Non-Churn): Excellent precision (0.91) and recall (0.99), with an F1-score of 0.95.
+
+Class 1 (Churn):
+
+  - Precision: 0.70
+
+  - Recall: 0.24
+
+  - F1-score: 0.36
+
+**Analysis:** SVC achieves similar overall accuracy to Logistic Regression and the highest precision for class 1 (0.70), meaning when it predicts churn, it's quite often correct. However, its recall for class 1 (0.24) is still quite low, similar to Logistic Regression, meaning it misses most actual churners.
+
+#### 5. Gradient Boosting
+**Accuracy:** 0.90
+
+Class 0 (Non-Churn): High precision (0.91) and recall (0.99), leading to an F1-score of 0.95.
+
+Class 1 (Churn):
+
+Precision: 0.68
+
+Recall: 0.23
+
+F1-score: 0.35
+
+**Analysis:** Gradient Boosting performs very similarly to Logistic Regression in this scenario, with high overall accuracy but low recall for the churn class (0.23).
+
+
+From this summary, Random Forest has the highest F1-score for class 1, indicating the best balance between precision and recall for churners among the models tested. SVC has the highest precision, but a relatively low recall. Decision Tree has the highest recall, but its precision is quite poor, meaning many of its churn predictions would be false alarms.
