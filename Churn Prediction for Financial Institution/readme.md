@@ -1,4 +1,4 @@
-## 📊 Financial Institution Churn Prediction
+## 📊 Churn Prediction for Financial Institution
 
 ### Table of Contents
 
