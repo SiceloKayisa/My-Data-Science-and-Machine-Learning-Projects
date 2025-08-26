@@ -2,7 +2,7 @@
 
 ### Table of Contents
 
-- [ 🚀 Introduction](#introduction)
+- [Introduction](#introduction)
 
 - [Dataset](#Dataset)
 
