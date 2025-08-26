@@ -8,7 +8,7 @@
 
 - [Key Steps](#Key-Steps)
 
-    - [Exploratory Data Analysis (EDA)](#Exploratory-Data-Analysis-(EDA)
+    - [Exploratory Data Analysis (EDA)](#Exploratory-Data-Analysis-(EDA))
 
     - [Data Cleaning & Feature Engineering](#Data-Cleaning-&-Feature-Engineering)
 
