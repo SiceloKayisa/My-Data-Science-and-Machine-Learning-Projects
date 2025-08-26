@@ -3,11 +3,8 @@
 ### Table of Contents
 
 - [`Introduction`](#Introduction)
-- 
-- <a name="custom_anchor_name"></a>
-# some header
 
-- in (#Dataset)
+- [`Dataset`](#Dataset)
 
 - Key Steps
 
