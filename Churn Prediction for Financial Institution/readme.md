@@ -16,7 +16,7 @@
 
 - [Models Used](#Models-Used)
 
-- [Results](#Results) 
+- [Results](#Results)
 
 - [Libraries Used](#Libraries-Used)
 
