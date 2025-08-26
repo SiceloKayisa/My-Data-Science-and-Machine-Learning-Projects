@@ -39,23 +39,23 @@ Initial Data Inspection: Understanding the dataset's dimensions, data types, and
 
 **Bivariate Analysis:** Investigating relationships between features and the target variable to uncover insights into potential churn drivers.
 
-### Data Cleaning & Feature Engineering###
-  - Handling Irrelevant Features: Dropping columns that do not contribute to the prediction.
+### Data Cleaning & Feature Engineering ###
+  - **Handling Irrelevant Features:** Dropping columns that do not contribute to the prediction.
 
-  - Categorical Encoding: Converting categorical features into a numerical format suitable for machine learning models using One-Hot Encoding and Label Encoding.
+  - **Categorical Encoding:** Converting categorical features into a numerical format suitable for machine learning models using One-Hot Encoding and Label Encoding.
 
-  - Feature Scaling: Applying StandardScaler to numerical features to normalize their range, preventing features with larger values from dominating the model.
+  - **Feature Scaling:** Applying StandardScaler to numerical features to normalize their range, preventing features with larger values from dominating the model.
 
-  - Addressing Class Imbalance: (Optional, but recommended for churn datasets) Utilizing techniques like SMOTE (Synthetic Minority Over-sampling Technique) to balance the target classes, which can improve model performance for the minority class. Note: SMOTE requires the imblearn library, which is outside sklearn but often used in conjunction.
+  - **Addressing Class Imbalance:** (Optional, but recommended for churn datasets) Utilizing techniques like SMOTE (Synthetic Minority Over-sampling Technique) to balance the target classes, which can improve model performance for the minority class. Note: SMOTE requires the imblearn library, which is outside sklearn but often used in conjunction.
 
 ### Model Building & Evaluation ###
-- Data Splitting: Dividing the dataset into training and testing sets.
+- **Data Splitting:** Dividing the dataset into training and testing sets.
 
-- Pipeline Creation: Constructing sklearn pipelines to streamline preprocessing and model training, ensuring consistency and preventing data leakage.
+- **Pipeline Creation:** Constructing sklearn pipelines to streamline preprocessing and model training, ensuring consistency and preventing data leakage.
 
-- Model Training: Training various classification algorithms on the preprocessed training data.
+- **Model Training:** Training various classification algorithms on the preprocessed training data.
 
-- Performance Evaluation: Assessing each model's effectiveness using metrics appropriate for imbalanced datasets:
+- **Performance Evaluation:** Assessing each model's effectiveness using metrics appropriate for imbalanced datasets:
 
     - Accuracy
 
@@ -67,7 +67,7 @@ Initial Data Inspection: Understanding the dataset's dimensions, data types, and
 
     - ROC-AUC Score (Receiver Operating Characteristic - Area Under the Curve)
 
-- Comparison: Comparing the performance of different models to identify the best-performing one.
+- **Comparison:** Comparing the performance of different models to identify the best-performing one.
 
 ### 🤖 Models Used ###
 The following sklearn classification algorithms were implemented and evaluated:
