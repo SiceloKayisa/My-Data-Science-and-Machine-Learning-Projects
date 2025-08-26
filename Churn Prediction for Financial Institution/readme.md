@@ -89,17 +89,17 @@ The following sklearn classification algorithms were implemented and evaluated:
 In churn prediction, correctly identifying customers who are likely to churn (class 1, the positive class) is often more critical than overall accuracy. Therefore, recall and F1-score for class 1 are particularly important metrics to focus on.
 
 #### 1. Logistic Regression
-Accuracy: 0.90
+**Accuracy:** 0.90
 
 - Class 0 (Non-Churn): Very high precision (0.91) and recall (0.99), leading to an excellent F1-score (0.95). It's great at identifying non-churners.
 
-Class 1 (Churn):
+- Class 1 (Churn):
 
-Precision: 0.68 (68% of customers predicted to churn actually churned).
+  - Precision: 0.68 (68% of customers predicted to churn actually churned).
 
-Recall: 0.22 (Only 22% of actual churners were correctly identified).
+  - Recall: 0.22 (Only 22% of actual churners were correctly identified).
 
-F1-score: 0.33
+  - F1-score: 0.33
 
 Analysis: While overall accuracy is high, Logistic Regression performs poorly in identifying actual churners (low recall for class 1). This model would miss a significant number of customers who are about to churn.
 
