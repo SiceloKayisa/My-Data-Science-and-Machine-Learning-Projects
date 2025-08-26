@@ -18,6 +18,8 @@
   
 - [Model Perfomance Analysis](#-Model-Perfomance-Analysis)
 
+- [Recommendations](#-recommendations)
+
 - [Libraries Used](#-Libraries-Used)
 
 ### 🚀 Introduction
@@ -104,41 +106,41 @@ In churn prediction, correctly identifying customers who are likely to churn (cl
 Analysis: While overall accuracy is high, Logistic Regression performs poorly in identifying actual churners (low recall for class 1). This model would miss a significant number of customers who are about to churn.
 
 #### 2. Decision Tree
-Accuracy: 0.84
+**Accuracy:** 0.84
 
-Class 0 (Non-Churn): Good precision (0.92) and recall (0.90), with an F1-score of 0.91.
+- Class 0 (Non-Churn): Good precision (0.92) and recall (0.90), with an F1-score of 0.91.
 
-Class 1 (Churn):
+- Class 1 (Churn):
 
-Precision: 0.31
+  - Precision: 0.31
 
-Recall: 0.34
+  - Recall: 0.34
 
-F1-score: 0.32
+  - F1-score: 0.32
 
-Analysis: Decision Tree has a lower overall accuracy compared to Logistic Regression. It shows slightly better recall for class 1 than Logistic Regression (0.34 vs 0.22), meaning it catches more actual churners, but its precision for class 1 is much lower, indicating more false positives.
+**Analysis:** Decision Tree has a lower overall accuracy compared to Logistic Regression. It shows slightly better recall for class 1 than Logistic Regression (0.34 vs 0.22), meaning it catches more actual churners, but its precision for class 1 is much lower, indicating more false positives.
 
 #### 3. Random Forest
 **Accuracy**: 0.89
 
-Class 0 (Non-Churn): Strong precision (0.91) and recall (0.97), resulting in an F1-score of 0.94.
+- Class 0 (Non-Churn): Strong precision (0.91) and recall (0.97), resulting in an F1-score of 0.94.
 
-Class 1 (Churn):
+- Class 1 (Churn):
 
-Precision: 0.57
+  - Precision: 0.57
 
-Recall: 0.29
+  - Recall: 0.29
 
-F1-score: 0.38
+  - F1-score: 0.38
 
 **Analysis:** Random Forest provides a good balance, with high overall accuracy and better precision for class 1 (0.57) compared to Decision Tree, but its recall for churners (0.29) is still relatively low, though better than Logistic Regression. It improves the F1-score for class 1 to 0.38, making it the best so far for the churn class.
 
 #### 4. SVC (Support Vector Classifier)
 **Accuracy:** 0.90
 
-Class 0 (Non-Churn): Excellent precision (0.91) and recall (0.99), with an F1-score of 0.95.
+- Class 0 (Non-Churn): Excellent precision (0.91) and recall (0.99), with an F1-score of 0.95.
 
-Class 1 (Churn):
+- Class 1 (Churn):
 
   - Precision: 0.70
 
@@ -151,17 +153,32 @@ Class 1 (Churn):
 #### 5. Gradient Boosting
 **Accuracy:** 0.90
 
-Class 0 (Non-Churn): High precision (0.91) and recall (0.99), leading to an F1-score of 0.95.
+- Class 0 (Non-Churn): High precision (0.91) and recall (0.99), leading to an F1-score of 0.95.
 
-Class 1 (Churn):
+- Class 1 (Churn):
 
-Precision: 0.68
+  - Precision: 0.68
 
-Recall: 0.23
+  - Recall: 0.23
 
-F1-score: 0.35
+  - F1-score: 0.35
 
 **Analysis:** Gradient Boosting performs very similarly to Logistic Regression in this scenario, with high overall accuracy but low recall for the churn class (0.23).
 
 
 From this summary, Random Forest has the highest F1-score for class 1, indicating the best balance between precision and recall for churners among the models tested. SVC has the highest precision, but a relatively low recall. Decision Tree has the highest recall, but its precision is quite poor, meaning many of its churn predictions would be false alarms.
+
+
+### 🎯 Recommendations 
+**1. Prioritize Random Forest for initial deployment:** Given its superior F1-score for the churn class (0.38), Random Forest appears to be the most balanced performer for identifying churners effectively in your current setup.
+
+**2. Focus on improving Recall for Class 1:** All models still have relatively low recall for churners (the highest is 0.34 from Decision Tree). This means a large percentage of actual churners are being missed. For a financial institution, missing churners can be costly.
+
+- **Consider techniques for imbalanced data:** If you haven't already, strongly consider using SMOTE (Synthetic Minority Over-sampling Technique) or other over/under-sampling methods from imblearn on your training data. This can significantly boost recall for the minority class.
+- **Adjust class weights:** Many sklearn classifiers allow you to adjust class_weight parameters to give more importance to the minority class during training.
+
+- **Optimize for Recall during hyperparameter tuning:** When performing hyperparameter tuning (e.g., with GridSearchCV or RandomizedSearchCV), set scoring='recall' or scoring='f1' (if you want to balance precision and recall) for the churn class.
+
+**3. Explore Threshold Tuning:** You can adjust the decision threshold for your models. By default, most models classify based on a 0.5 probability. Lowering this threshold might increase recall (catching more churners) at the cost of precision (more false positives), which might be acceptable depending on the business cost of missing a churner versus a false positive.
+
+**4. Feature Importance:** For Random Forest and Gradient Boosting, you can inspect feature importances (model.feature_importances_) to understand which features are most influential in predicting churn. This can provide actionable business insights.
