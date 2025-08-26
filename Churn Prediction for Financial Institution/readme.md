@@ -31,13 +31,13 @@ The dataset used in this project is the Bank Marketing Data Set from the UCI Mac
 ### 🔑 Key Steps
 
 #### Exploratory Data Analysis (EDA)
-    Initial Data Inspection: Understanding the dataset's dimensions, data types, and checking for missing values.
+Initial Data Inspection: Understanding the dataset's dimensions, data types, and checking for missing values.
     
-    - **Target Variable Analysis:** Visualizing the distribution of churn (y variable) to identify class imbalance.
+- **Target Variable Analysis:** Visualizing the distribution of churn (y variable) to identify class imbalance.
     
-    - **Univariate Analysis:** Examining the distributions of individual features (numerical and categorical).
+- **Univariate Analysis:** Examining the distributions of individual features (numerical and categorical).
     
-    - **Bivariate Analysis:** Investigating relationships between features and the target variable to uncover insights into potential churn drivers.
+- **Bivariate Analysis:** Investigating relationships between features and the target variable to uncover insights into potential churn drivers.
 
 #### Data Cleaning & Feature Engineering ###
   - **Handling Irrelevant Features:** Dropping columns that do not contribute to the prediction.
