@@ -2,9 +2,9 @@
 
 ### Table of Contents
 
-- [Introduction](#Introduction)
+- [Introduction](#introduction)
 
-- [`Dataset`](#Dataset)
+- [Dataset](#Dataset)
 
 - Key Steps
 
