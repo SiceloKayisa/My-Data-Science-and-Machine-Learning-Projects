@@ -198,7 +198,7 @@ Using the above recommendations I will continue to train Random Forest and Decis
 - **Pandas:** For loading, cleaning, transforming, and manipulating data. It's the go-to tool for working with tabular data.
 
 - **NumPy:** Used for high-performance numerical operations, especially with multi-dimensional arrays and mathematical functions. It's often the backbone for other libraries like Pandas
-- Seaborn: For creating beautiful and informative statistical visualizations. It builds on Matplotlib and is perfect for exploring relationships between variables.
+- **Seaborn:** For creating beautiful and informative statistical visualizations. It builds on Matplotlib and is perfect for exploring relationships between variables.
 
 - **Scikit-learn:** A comprehensive library for building and evaluating machine learning models. It includes a wide range of algorithms for classification, regression, clustering, and more.
 
