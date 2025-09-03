@@ -27,7 +27,7 @@
 ### 🚀 Introduction
 This project focuses on building a churn prediction model for a financial institution. Customer churn is a critical issue for businesses, as retaining existing customers is often more cost-effective than acquiring new ones. By identifying customers at high risk of churning, institutions can implement targeted retention strategies.
 
-This repository contains a comprehensive Jupyter Notebook that covers the entire machine learning pipeline, from data acquisition and exploratory data analysis to data preprocessing, feature engineering, model building, and evaluation, strictly using the sklearn library.
+This project contains a comprehensive Jupyter Notebook that covers the entire machine learning pipeline, from data acquisition and exploratory data analysis to data preprocessing, feature engineering, model building, and evaluation, strictly using the sklearn library.
 
 ### 💾 Dataset
 The dataset used in this project is the Bank Marketing Data Set from the UCI Machine Learning Repository. This dataset is related to direct marketing campaigns (phone calls) of a Portuguese banking institution. The classification goal is to predict if the client will subscribe to a term deposit (the y variable), which serves as our churn indicator.
