@@ -20,6 +20,8 @@
 
 - [Recommendations](#-recommendations)
 
+- [Hyperparameter Tuning and Improving The Models Performance](#-Hyperparameter-Tuning-and-Improving-The-Models-Performance)
+
 - [Libraries Used](#-Libraries-Used)
 
 ### 🚀 Introduction
@@ -180,4 +182,28 @@ From this summary, Random Forest has the highest F1-score for class 1, indicatin
 
 **3. Explore Threshold Tuning:** You can adjust the decision threshold for your models. By default, most models classify based on a 0.5 probability. Lowering this threshold might increase recall (catching more churners) at the cost of precision (more false positives), which might be acceptable depending on the business cost of missing a churner versus a false positive.
 
-**4. Feature Importance:** For Random Forest and Gradient Boosting, you can inspect feature importances (model.feature_importances_) to understand which features are most influential in predicting churn. This can provide actionable business insights.
+**4. Feature Importance:** For best performing model I will inspect feature importances (model.feature_importances_) to understand which features are most influential in predicting churn. This can provide actionable business insights.
+
+### 🎯 Hyperparameter Tuning and Improving The Models Performance
+
+Using the above recommendations I will continue to train Random Forest and Decision Trees as they have better performance metrics for our churn problem at hand. I will adjust these models individually to improve their perfomance by exploring the following ways listed below
+
+- Consider the techniques for imbalanced dataset and in this case SMOTE
+- Perform hyperparameter tuning using GridSearchCV
+- Analyse feature importance and use all the features that are informative for developing the prediction model
+- Lastly I will take the better performing model in preparation for deployment.
+
+### Libraries used
+
+- **Pandas:** For loading, cleaning, transforming, and manipulating data. It's the go-to tool for working with tabular data.
+
+- **NumPy:** Used for high-performance numerical operations, especially with multi-dimensional arrays and mathematical functions. It's often the backbone for other libraries like Pandas
+- Seaborn: For creating beautiful and informative statistical visualizations. It builds on Matplotlib and is perfect for exploring relationships between variables.
+
+- **Scikit-learn:** A comprehensive library for building and evaluating machine learning models. It includes a wide range of algorithms for classification, regression, clustering, and more.
+
+- **Warnings:** To manage and suppress warning messages in your code. This helps keep your output clean, especially when dealing with deprecation warnings from other libraries.
+
+- **Imbalanced-learn (imblearn):** A specialized library for handling imbalanced datasets. It provides resampling techniques like SMOTE (Synthetic Minority Over-sampling Technique) to balance the class distribution, which is crucial for building accurate predictive models.
+
+  
