@@ -207,4 +207,5 @@ Using the above recommendations I will continue to train Random Forest and Decis
 - **Imbalanced-learn (imblearn):** A specialized library for handling imbalanced datasets. It provides resampling techniques like SMOTE (Synthetic Minority Over-sampling Technique) to balance the class distribution, which is crucial for building accurate predictive models.
 
   
-<img width="225" height="225" alt="image" src="https://github.com/user-attachments/assets/fc831c9a-d551-4bc7-aa62-4eab10861604" />
+<img width="800" height="607" alt="image" src="https://github.com/user-attachments/assets/07e54066-3b81-4782-9ac5-355a4f77d19c" />
+
