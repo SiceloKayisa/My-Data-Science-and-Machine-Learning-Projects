@@ -193,7 +193,7 @@ Using the above recommendations I will continue to train Random Forest and Decis
 - Analyse feature importance and use all the features that are informative for developing the prediction model
 - Lastly I will take the better performing model in preparation for deployment.
 
-### Libraries used
+### 📬🔑 Libraries used
 
 - **Pandas:** For loading, cleaning, transforming, and manipulating data. It's the go-to tool for working with tabular data.
 
