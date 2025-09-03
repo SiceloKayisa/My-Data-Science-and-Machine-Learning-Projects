@@ -104,7 +104,7 @@ In churn prediction, correctly identifying customers who are likely to churn (cl
 
   - F1-score: 0.33
 
-Analysis: While overall accuracy is high, Logistic Regression performs poorly in identifying actual churners (low recall for class 1). This model would miss a significant number of customers who are about to churn.
+**Analysis:** While overall accuracy is high, Logistic Regression performs poorly in identifying actual churners (low recall for class 1). This model would miss a significant number of customers who are about to churn.
 
 #### 2. Decision Tree
 **Accuracy:** 0.84
