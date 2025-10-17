@@ -65,4 +65,4 @@ The core code is contained in the Jupyter Notebook: `Akshar_fcc_cat_dog.ipynb`.
     ```bash
     pip install tensorflow numpy matplotlib
     ```
-3.  **Run the Notebook:** Open the `Akshar_fcc_cat_dog.ipynb` file in a Jupyter environment (such as Google Colab or Jupyter Notebook) and execute the cells sequentially. The notebook handles the data download automatically.
+3.  **Run the Notebook:** Open the `Cat and Dog Image Classifier.ipynb` file in a Jupyter environment (such as Google Colab or Jupyter Notebook) and execute the cells sequentially. The notebook handles the data download automatically.
