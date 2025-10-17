@@ -55,7 +55,7 @@ The model was trained on a subset of the popular Kaggle Dogs vs. Cats dataset.
 
 ## 🚀 Getting Started
 
-The core code is contained in the Jupyter Notebook: `Akshar_fcc_cat_dog.ipynb`.
+The core code is contained in the Jupyter Notebook: `Cat and Dog Image Classifier.ipynb`.
 
 1.  **Clone the Repository:**
     ```bash
