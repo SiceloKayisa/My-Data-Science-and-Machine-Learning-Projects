@@ -10,7 +10,7 @@ This project was completed as part of the **FreeCodeCamp Machine Learning Certif
 
 ---
 
-## ⭐ Key Achievements (Quantifiable Metrics)
+## ⭐ Key Achievements 
 
 * **Classification Performance:** Achieved a final test accuracy of **74.0%** on the specialized 50-image test set, meeting the challenge passing requirements.
 * **Dataset Utilization:** Model trained and validated on a total of **3,000 images** (2,000 for training, 1,000 for validation).
