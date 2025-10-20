@@ -4,6 +4,8 @@
 
 This project develops a machine learning model to classify SMS messages as either "ham" (legitimate) or "spam" (unsolicited or malicious).
 
+This project was completed as part of the **FreeCodeCamp Machine Learning Certification**.
+
 ---
 
 ## 🎯 Project Aims
