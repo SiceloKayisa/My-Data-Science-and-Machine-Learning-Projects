@@ -1,5 +1,7 @@
 # SMS Text Classification (Ham/Spam)
 
+[![FreeCodeCamp Certification Project](https://img.shields.io/badge/Certification-FreeCodeCamp-blue)](https://www.freecodecamp.org/)
+
 This project develops a machine learning model to classify SMS messages as either "ham" (legitimate) or "spam" (unsolicited or malicious).
 
 ---
